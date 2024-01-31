@@ -1,9 +1,12 @@
 import "./App.css";
+import AddFoodForm from "./components/food-form/AddFoodForm";
+import FoodList from "./components/food-list/FoodList";
 
 function App() {
   return (
     <div className="App">
-      <h1>LAB | React IronNutrition</h1>
+      <AddFoodForm/>
+      <FoodList />
     </div>
   );
 }
